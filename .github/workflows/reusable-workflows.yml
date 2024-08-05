@@ -5,7 +5,7 @@ on:
       pr-number:
         type: string
         default: ${{ github.event.pull_request.number }}
-        requred: false
+        required: false
         description: プルリクエスト番号
     secrets: #  Reusable Workflowではsecretsでトークンを渡す（Actionではinputsを使用した）
       token:
